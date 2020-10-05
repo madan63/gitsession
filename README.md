@@ -46,13 +46,59 @@ git status	: will bring you the recent changed/ modified files
 
 
 git branch 	<branchname> :	will create a new branch
- 
+
+git checkout <branchname>: will take you to the respective branch
+	eg: git branch orderreport
+
+	git checkout orderreport
+
+	git checkout master
+
+
+git pull origin <branchname>
+
+git push origin <sundeep>
+
+git log will give you the history of the previous actions
+
+git config --global user.name = <yourname>
+git config --global user.email = <email>
+git config --global user.password = <password>
+
+git stash	: will clear the recent added files to the git all changes will be reverted
 
 
 
+#by developer
+git init
+
+git clone / initial pull
+
+git fetch 
+git pull
+
+git push
+git status
+
+git add <filenames>
+
+git stash
+
+git checkout
+
+
+#by superior
+git merge
+git log
 
 
 
+add file extensions to .gitignore
+.sql\
+.log
+.csv
+
+git status
 
 
 
